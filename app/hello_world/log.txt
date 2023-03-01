@@ -1,0 +1,6 @@
+[Compiling code for cpu_0]
+
+Info: Building ../../bsp/mpsoc_hello_world/
+make --no-print-directory -C ../../bsp/mpsoc_hello_world/
+[BSP build complete]
+[hello_world_small build complete]

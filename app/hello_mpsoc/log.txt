@@ -1,0 +1,34 @@
+[Compiling code for cpu_0]
+
+Info: Building ../../bsp/mpsoc_hello_mpsoc_0/
+make --no-print-directory -C ../../bsp/mpsoc_hello_mpsoc_0/
+[BSP build complete]
+[hello_mpsoc_0 build complete]
+
+[Compiling code for cpu_1]
+
+Info: Building ../../bsp/mpsoc_hello_mpsoc_1/
+make --no-print-directory -C ../../bsp/mpsoc_hello_mpsoc_1/
+[BSP build complete]
+[hello_mpsoc_1 build complete]
+
+[Compiling code for cpu_2]
+
+Info: Building ../../bsp/mpsoc_hello_mpsoc_2/
+make --no-print-directory -C ../../bsp/mpsoc_hello_mpsoc_2/
+[BSP build complete]
+[hello_mpsoc_2 build complete]
+
+[Compiling code for cpu_3]
+
+Info: Building ../../bsp/mpsoc_hello_mpsoc_3/
+make --no-print-directory -C ../../bsp/mpsoc_hello_mpsoc_3/
+[BSP build complete]
+[hello_mpsoc_3 build complete]
+
+[Compiling code for cpu_4]
+
+Info: Building ../../bsp/mpsoc_hello_mpsoc_4/
+make --no-print-directory -C ../../bsp/mpsoc_hello_mpsoc_4/
+[BSP build complete]
+[hello_mpsoc_4 build complete]
