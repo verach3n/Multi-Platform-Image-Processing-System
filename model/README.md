@@ -1,4 +1,4 @@
-# IL2212 Specification Model of the Application
+# Specification Model of the Application
 
 This package contains the executable specification of the image processing application used for the IL2212 Embedded Software lab project, provided as a ForSyDe-Shallow (Haskell) model. 
 
@@ -136,7 +136,7 @@ You can always exit the session with `Ctrl`+`D`.
     
 Your job will be to clearly understand the application specification, and a good practice to do that, apart from going through the code and through the documentation, is to test snippets and functions in the interpreter directly. As such, you would load in the interpreter either source files or, in this case, import library modules and test directly the functions or parts of the functions exported. 
 
-For example, to test the `resize` functions exported by the `IL2212.ImageProcessing` module, you would roughly perform the following steps (consulting the generated documentation at the same time):
+For example, to test the `resize` functions exported by the `model.ImageProcessing` module, you would roughly perform the following steps (consulting the generated documentation at the same time):
 
     Prelude Img U> ppm <- readFile "images/flag_tiny_good/flag_tiny_01.ppm"  -- the '<-' assignment is used for non-pure I/O functions
     Prelude Img U> let img = grayscale $ ppm2img ppm       -- the 'let' assignment is used for pure functions
@@ -217,13 +217,3 @@ As an exercise, let us reconstruct what is happening in internal function `sumCo
     <3,7,11,15>
     <3,7,11,15>
     
-Hopefully the above exercises served as an appetizer to get your hands dirty with this ForSyDe-Haskell model. Understanding the system specification at such an abstraction level, albeit far from a specific implementation, enlarges the possible design space and opens up potential ways for alternative mappings and for exploiting various platforms. 
-
-Good materials for helping with language or library related issues, which you should consult at any time:
-
-* [the suggested book](http://learnyouahaskell.com/), or any beginners' manual;
-* the generated API documentation;
-* the [ForSyDe-Shallow](https://hackage.haskell.org/package/forsyde-shallow) API documentation;
-* (especially) [Hoogle](https://www.haskell.org/hoogle/). 
-
-Additional material on the core concepts will be given during the lectures. 
